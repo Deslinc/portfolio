@@ -12,6 +12,11 @@ nav{
     left: 0;
     
 }
+div h4 {
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+}
 
 
 .text-white {
@@ -26,7 +31,7 @@ nav{
     justify-content: space-between;
 }
 .hero {
-    background-image: url(../images/asset\ 0.jpeg);
+    background-image: url(../images/asset0.jpeg);
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -37,8 +42,19 @@ nav{
 
 .hero-content{
     width: 80%;
+    margin-left: -10%;
     
 }
+
+.hero-content h1{
+    color: white;
+    font-size: 50px;
+    font-family: "Roboto Serif" serif;
+    height: 80px;
+
+}
+
+
 .bio{
     width: 60%;
     
@@ -47,3 +63,4 @@ nav{
     color: white;
     
 }
+
