@@ -45,6 +45,9 @@ div h4 {
 .hero-content{
     width: 80%;
     margin-left: -10%;
+    gap: 2rem;
+    
+    
     
 }
 
@@ -59,10 +62,67 @@ div h4 {
 
 .bio{
     width: 60%;
+    color: white;
     
 }
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-family: "Roboto Serif", serif;
+    height: 80px;
+}
+
 .text-bold {
     color: white;
     
 }
+
+.button1 {
+    background-color: blue;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    font-size: 13px;
+    margin-top: 10%;
+    
+}
+
+.button2 {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 12px;
+    color: blue;
+    font-size: 13px;
+    margin-top: 8%;
+}
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: white;
+    font-family: "Roboto Serif", serif;
+    font-size: 13px;
+}
+
+.profile-link{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-family: "Roboto Serif", serif;
+    height: 35px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: blue;
+    
+}
+.first-head{
+    border: 1px solid transparent;
+    background-color: white;
+    width: 9%;
+}
+
 
