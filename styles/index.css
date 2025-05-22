@@ -59,6 +59,24 @@ div h4 {
 
 }
 
+.motion {
+    animation: typing 6s steps(15) infinite;
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 58ch;
+    }
+    100% {
+        width: 0ch;
+    }
+}
 
 .bio{
     width: 60%;
@@ -80,24 +98,31 @@ div h4 {
 }
 
 .button1 {
-    background-color: blue;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    padding: 12px;
+    display: flex;
+    background-color: rgb(72, 72, 204);
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: 700;
     color: white;
-    font-size: 13px;
-    margin-top: 10%;
+    font-size: 12px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .button2 {
+    display: flex;
     background-color: white;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    padding: 12px;
-    color: blue;
-    font-size: 13px;
-    margin-top: 8%;
+    border-radius: 4px;
+    padding: 10px;
+    color: rgb(54, 54, 138);
+    font-size: 12px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    
 }
 .social-links {
     display: flex;
